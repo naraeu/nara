@@ -1,0 +1,38 @@
+:root{
+    --cor-de-fundo: #1e1e1e;
+    --verde: #6fff57;
+    --branco: #ffffff;
+    --botao-ativo: #3a375e;
+    --botao-intativo: rgba(58,55,94,0.5);
+    --texto-fundo: rgba(58,55,94,0.3);
+}
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco);
+    font-family: 'Chacra Pecth',sans-serif;
+}
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.titulo-principal {
+    text-align: left;
+    width: 100%;
+    font-size: 32px;
+}
+.titulo-principal span {
+    color: var(--verde);
+}
+.botao { font-family: «Crakra Petch», sans-serif;
+    background-color: var(--botao-intativo);
+    color: var(--branco);
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    font-size: 18px;
+    align-items: center;
+    width: 100%;
+}
